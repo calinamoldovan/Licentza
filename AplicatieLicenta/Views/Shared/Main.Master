@@ -1,0 +1,226 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="AplicatieLicenta.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../../Content/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/facelift.css" rel="stylesheet" type="text/css" />	
+	<link href="../../Content/menu.css" rel="stylesheet" type="text/css" />	
+	<link href="../../Content/login_overlay.css" rel="stylesheet" type="text/css" />
+	
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>	
+    <script language="javascript" type="text/javascript" src="../../Scripts/jquery-ui-1.8.12.custom.min.js"></script>		
+	<script type="text/javascript" language="javascript" src="../../Scripts/menu.js"></script>
+	<script type="text/javascript" language="javascript" src="../../Scripts/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" language="javascript" src="../../Scripts/general-stuff.js"></script>
+	<script language="javascript" type="text/javascript" src="../../Scripts/global.js"></script>
+	<script language="javascript" type="text/javascript"><!--
+		    var SLIDE_NAVIGATOR_TOTAL = 0;
+		    var SLIDE_NAVIGATOR_CURRENT = false;
+		//-->
+		</script>
+		
+		
+	
+		
+		
+			
+		
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server" >
+    	<div id="fb-root"></div>
+	
+	<script type="text/javascript">
+	    (function (d, s, id) {
+	        var js, fjs = d.getElementsByTagName(s)[0];
+	        if (d.getElementById(id)) { return; }
+	        js = d.createElement(s); js.id = id;
+	        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=238936456169413";
+	        fjs.parentNode.insertBefore(js, fjs);
+	    } (document, 'script', 'facebook-jssdk'));
+	</script>
+	
+    
+    	
+			        
+	
+	<div id="ws_branding_area">
+		<div id="ws_footer_bg">
+		
+	<center>
+	
+	<div id="site">
+		<div id="header" style="background: url('../../images/navy.png') repeat-x scroll left -81px transparent; margin: 0; padding: 0 10px;">	
+					
+			<div id="page_header_main">
+				
+				<div id="logo">
+				</div>			
+						
+				<div id="login_and_search">
+					<div id="login_links">
+						<a href="javascript:void(0)" title="Inregistrare pe Wall-Street.ro" rel="nofollow" id="user_ident_register">inregistrare</a>	&nbsp;|&nbsp;<a href="javascript:void(0)" rel="nofollow" title="Intra in contul tau pe Wall-Street.ro" class="active" id="user_ident_login">intra in cont</a>
+						<a href="javascript:void(0)" onclick="IC_user_ident.submit('facebook'); return false;" title="Conecteaza-te cu Facebook" style="display: inline-block; float: right; padding: 5px 8px;"><img src="../../images/fb_very_small.png" align="top" alt="FB" />
+						</a>
+															
+					</div>			
+				
+					<div id="search_box">
+						<form action="#" method="post" onsubmit="if ($('#search_keyword_input').val() == 'cauta articole...') $('#search_keyword_input').val(''); return true;">							
+							<input type="text" name="keyword" id="search_keyword_input" class="search_input" value="cauta articole..." onfocus="if ($(this).val()=='cauta articole...') $(this).val(''); $(this).css('color','#000');" onblur="if ($(this).val()=='') $(this).val('cauta articole...'); $(this).css('color','#666')"/>&nbsp;&nbsp;
+							<input type="submit" id="search_keyword_submit" class="submit_search" name="submit" value="" />
+						</form>	
+					</div>
+				
+										
+				</div>
+			<div style="clear:both;"><!-- --></div>		
+			</div>	
+		
+			<div id="menu_placeholder">
+	<ul id="main_menu">	
+				<li class="section " style=" border-left:none; ">
+					<a class="section-title" href="#" style="cursor:pointer;" id="home" title="Home">HOME</a>
+				</li>
+				<li class="section " style="">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page1" title="Page1">Page 1</a>
+				</li>
+				<li class="section " style="">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page2" title="Page 2">Page 2</a>
+				</li>
+				<li class="section " style="">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page3" title="Page 3">page 3</a>
+				</li>
+				<li class="section " style="" ">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page4" title="Page 4">Page 4</a>
+				</li>
+				<li class="section " style="">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page5" title="Page 5">Page 5</a>
+				</li>
+				<li class="section " style="">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page6" title="Page 6">Page 6</a>
+				</li>
+				<li class="section " style="">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page7" title="Page 7">Page 7</a>
+				</li>
+				<li class="section " style="margin:0; border-right:none;">
+					<a class="section-title" href="#" style="cursor:pointer;" id="page 8" title="Page 8">page 8</a>
+				</li>
+			</ul>
+		
+	<div style="clear:both;"><!-- --></div></div>
+		</div>
+				
+<div id="page-container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+</div>			
+			<div style="clear:both"><!-- --></div>
+						<div id="footer">
+								<div class="footer-div">
+					<div class="footer_floating_box">
+						<div class="logo_box">
+							<ul>
+								<li><a href="#" rel="nofollow" title="Contact" id="user_ident_contact">Contact</a> &nbsp; | &nbsp; </li>	
+								<li><a href="#" rel="nofollow" title="Termeni si conditii">Termeni si conditii</a></li>
+								<li><a href="#" rel="nofollow" title="Acord de confidentialitate">Acord de Confidentialitate</a> </li>
+								<li><a href="#">Publicitate</a></li>
+							</ul>
+						</div>
+							
+						<p>Aplicatie &copy; 2012 Toate drepturile rezervate. </p>	
+					</div>
+					
+					<div class="footer_floating_list" style="border:none;">
+						<ul>
+							<li><h3>MENIU</h3></li>
+							<li><a href="#" title="Home">HOME</a></li>
+                            <li><a href="#" title="ABOUT">ABOUT</a></li>
+                            <li><a href="#" title="Video conferince">MY RECORDS</a></li>
+                        </ul>				
+					</div>			
+					
+					<div class="footer_floating_list">				
+						<ul>
+						<li><h3>RESURSE</h3></li>
+							<li><a href="" title="Comentarii">Comentarii</a></li>
+                            <li><a href="#" title="Chestionar">Chestionar</a></li>
+                       </ul>				
+					</div>				
+					
+										<div class="footer_floating_list">				
+						<ul>
+							<li><h3>Titlu</h3></li>
+							<li>
+								<a href="#" title="Test">Test</a>
+							</li>
+							<li>
+                                  <a href="#" title="Test">Test</a>
+							</li>
+													
+						</ul>
+					</div>	
+										
+					<div class="footer_floating_list">
+						<h3>Social Media</h3>
+						<ul id="footer_social_media">
+							<li><a href="#" target="_blank" title="Video conference on Facebook"><img src="../../images/facebook.png" alt="Video conference pe Facebook"/>Video conference pe Facebook</a></li>
+							<li><a href="#" target="_blank" title="Video conference on Twitter"><img src="../../images/twitter.png" alt="Video conference pe Twitter" />Video conference pe Twitter</a></li>
+							<li><a href="#" target="_blank" title="Video conference prin RSS"><img src="../../images/rss.png" alt="Video conference rss feed"/>Video conference prin RSS</a></li>
+													</ul>				
+					</div>	
+					
+					<div style="clear:both"><!-- --></div>	
+				</div>
+							</div>
+			<div id="page-footer-clearer" style="clear:both"><!-- --></div>
+
+	</div> <!-- end of #site -->	
+</center>
+	</div> <!-- end of #ws_footer_bg -->	
+</div> <!-- end of #ws_branding_area -->
+
+	
+
+
+
+
+			
+
+
+
+
+			
+	
+	<script type="text/javascript">
+
+	    FB.Event.subscribe('edge.create', function (targetUrl) {
+	        _gaq.push(['_trackSocial', 'facebook', 'like', targetUrl]);
+	    });
+
+	    FB.Event.subscribe('edge.remove', function (targetUrl) {
+	        _gaq.push(['_trackSocial', 'facebook', 'unlike', targetUrl]);
+	    });
+
+	    FB.Event.subscribe('message.send', function (targetUrl) {
+	        _gaq.push(['_trackSocial', 'facebook', 'send', targetUrl]);
+	    });
+	
+	</script>
+	
+	
+		
+	<script language="javascript" type="text/javascript" src="http://img.wall-street.ro/js/ICNAS/wall-street.js"></script>
+	</form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+D:\licenta\AplicatieLicenta\AplicatieLicenta\bin\AplicatieLicenta.dll
+D:\licenta\AplicatieLicenta\AplicatieLicenta\bin\AplicatieLicenta.pdb
+D:\licenta\AplicatieLicenta\AplicatieLicenta\obj\Debug\ResolveAssemblyReference.cache
+D:\licenta\AplicatieLicenta\AplicatieLicenta\obj\Debug\AplicatieLicenta.dll
+D:\licenta\AplicatieLicenta\AplicatieLicenta\obj\Debug\AplicatieLicenta.pdb
+C:\Users\practica\Desktop\calina\licenta\AplicatieLicenta\AplicatieLicenta\bin\AplicatieLicenta.dll
+C:\Users\practica\Desktop\calina\licenta\AplicatieLicenta\AplicatieLicenta\bin\AplicatieLicenta.pdb
+C:\Users\practica\Desktop\calina\licenta\AplicatieLicenta\AplicatieLicenta\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\practica\Desktop\calina\licenta\AplicatieLicenta\AplicatieLicenta\obj\Debug\AplicatieLicenta.dll
+C:\Users\practica\Desktop\calina\licenta\AplicatieLicenta\AplicatieLicenta\obj\Debug\AplicatieLicenta.pdb
+D:\Petra\AplicatieLicenta\AplicatieLicenta\bin\AplicatieLicenta.dll
+D:\Petra\AplicatieLicenta\AplicatieLicenta\bin\AplicatieLicenta.pdb
+D:\Petra\AplicatieLicenta\AplicatieLicenta\obj\Debug\ResolveAssemblyReference.cache
+D:\Petra\AplicatieLicenta\AplicatieLicenta\obj\Debug\AplicatieLicenta.dll
+D:\Petra\AplicatieLicenta\AplicatieLicenta\obj\Debug\AplicatieLicenta.pdb

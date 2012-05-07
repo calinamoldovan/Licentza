@@ -1,0 +1,96 @@
+
+#menu_placeholder { margin:0 auto; width:980px; height: 40px; }
+#menus { margin:0 auto; width:980px; position: absolute; left: 0; top: 87px; }
+
+ul#main_menu{
+	list-style:inside none;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+
+ul#main_menu li.section{
+	display:inline;
+	float:left;	
+	border-left:1px solid #666666;
+	border-right:1px solid #919191;	
+	position:relative;
+}
+
+ul#main_menu li#current_section{ 
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb718', endColorstr='#ffa200'); 
+background: -webkit-gradient(linear, left top, left bottom, from(#ffb718), to(#ffa200));
+background: -moz-linear-gradient(top,  #ffb718,  #ffa200);
+background: #ffa200; 
+
+border-left:0 none; border-right:0 none;
+color:#fff;
+
+}
+
+ul#main_menu li.section a.section-title{
+	background-color: transparent;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;	
+	height:34px;
+	padding:0 10px;
+	line-height:34px;
+	text-align:left;
+	display:block;
+	float:left;
+}
+
+
+ul#main_menu li.has_subsections a.section-title{
+	padding-right:25px;
+	background:url('http://img.wall-street.ro/images/facelift/menu_arrows.gif') no-repeat 90% 0px;	
+	}
+
+ul#main_menu li.section a.section-title:hover{	
+	color:#666;
+	opacity:1;
+	background-color: #f4f4f4;	
+}
+
+ul#main_menu li.has_subsections a.section-title:hover, ul#main_menu li.selected a.section-title{	
+	background-position: 90% -19px;
+	background-color: #f4f4f4;	
+	color:#666;	
+}
+
+a#fl_group_home { width:30px; background:url('http://img.wall-street.ro/images/facelift/white_house.png') center top; text-indent:-50px; overflow:hidden;}
+ul#main_menu li.section  a#fl_group_home:hover {background:url('http://img.wall-street.ro/images/facelift/grey_house.png') center center #f4f4f4; font-size:0;}
+
+ul#main_menu div.subsections{
+	position:absolute;
+	top:34px; left:-1px;
+	background:#F5F5F5;
+	display:none;
+	padding:5px 10px;	
+	border:1px solid #666; border-top:none;
+	text-transform:none;
+	width:120px;
+}
+
+ul#main_menu div.subsections ul { width:120px; display:inline; float:left; font-size:12px;	}
+
+ul#main_menu div.subsections ul li {height:28px; line-height:28px; border-top:1px solid #ddd; display:block;}	
+
+ul#main_menu div.subsections a{
+	text-decoration:none;
+    display: block;
+}
+
+ul#main_menu div.subsections ul li:first-child { border-top:none;}
+
+ul#main_menu div.subsections a:hover{
+	color:#053765;
+	text-decoration:underline;
+}
+
+div.menu-feature { width:200px; float:left;}
+div.menu-feature img { width:200px; border:1px solid #ccc;}
+div.menu-feature a.menu-feature-title { display:block; font-size:13px; margin:5px 0; line-height:1.3em; font-weight:bold; }
+
+
+

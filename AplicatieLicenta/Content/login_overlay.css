@@ -1,0 +1,40 @@
+
+#user_ident_window { box-shadow:0 0 15px #333; position:relative; z-index:9000000;}
+#user_ident_window p { margin:5px 0 10px 0; font-size:15px; line-height:1.6em;}
+
+#user_ident_form_login_errors, #user_ident_form_register_errors, #user_ident_form_password_errors, #user_ident_form_profile_errors, #user_ident_form_newsletters_errors { padding: 10px; margin: 2px 7px; color:#C00; font-weight: bold; margin-bottom: 10px; display:none;}
+
+#close-overlay { background:#666; border:1px solid #fff; box-shadow:0 0 4px #333; color:#fff;  text-align:center; font-weight:bold; width:12px; height:12px; line-height:9px; padding:3px; cursor:pointer; position:absolute; right:8px; top:8px;
+-webkit-border-radius: 10em; -moz-border-radius: 10em; border-radius: 10em; }
+
+#user_ident_tabs { clear:both; height:30px; margin-bottom:20px; background:url("../images/facelift/cdot.jpg") repeat-x scroll 0 bottom transparent; color:#999; padding-bottom:5px;}
+#user_ident_tabs span { display:block; float:left; height:40px; line-height:38px}
+
+#user_ident_tabs a.current_tab { font-size:24px; color:#222; line-height:32px;}
+#user_ident_tab_but_login, #user_ident_tab_but_register, #user_ident_tab_but_password { display:block; float:left; font-size:12px; height:31px; line-height:38px; margin:0 7px;}
+
+#user_ident_form_login, #user_ident_form_register, #user_ident_form_password, #user_ident_form_profile, #user_ident_form_newsletters { margin:0 10px; line-height:1.6em; font-size:12px; color:#333;}
+#user_ident_form_login label, #user_ident_form_register label, #user_ident_form_password label, #user_ident_form_profile label, #user_ident_form_newsletters label {display:block; margin:0 0 10px 0; }
+#user_ident_form_login label span, #user_ident_form_register label span, #user_ident_form_password label span, #user_ident_form_profile span, #user_ident_form_newsletters span { display:block; font-weight:bold;}
+
+#user_ident_form_login_email, #user_ident_form_login_password, #user_ident_form_register_email, #user_ident_form_register_password, #user_ident_form_register_confirm , #user_ident_form_password_email, #user_ident_form_profile_prenume, #user_ident_form_profile_nume, #user_ident_form_profile_email { border:1px solid #ddd; padding:5px; width:235px;}
+
+#user_ident_form_profile select { border:1px solid #ddd; padding:3px; max-width:150px;}
+
+.user_ident_submit, #user_ident_form_login_submit, #user_ident_form_login_cancel, #user_ident_form_register_submit, #user_ident_form_password_submit, #user_ident_form_profile_submit, #user_ident_form_newsletters_submit { padding:5px 15px; margin:6px auto;}
+#user_ident_form_register_submit { padding:5px 15px; margin:0;}
+
+.facebook-login-signup { width:200px; float:left;}
+.facebook-login-signup h2 { line-height:1.3em; font-weight:normal; color:#5E77AA;}
+#vertical-separator {border-right:1px dotted #ccc; color:#999; float:left; height:210px; width:12px; margin-bottom:5px;  line-height:200px; margin:0 40px 0 20px;  overflow:visible;}
+#vertical-separator span { background:#fff; font-size:14px; padding:5px 0;}
+.usual-login-signup { width:260px; float:left;}
+ 
+span.user_ident_field_error_message { display:block; color:#C00; font-size:10px; line-height:1.4em; font-weight:normal;}
+
+#user_ident_form_profile p { font-size:11px;}
+
+/* newsletter tab */
+#user_ident_form_newsletters_supplements { width:200px; float:right; border-left:1px dotted #ddd; padding-left:25px; }
+#user_ident_form_newsletters_others {float:left; width:290px;}
+#user_ident_form_newsletters_daily {width:290px; float:left;}
