@@ -239,3 +239,25 @@ fieldset
 }
 
 
+/*--------------HOME.aspx-----------*/
+#container 
+{
+    height: 500px;
+    margin-top: 50px;
+    padding: 0 10px 10px;
+    width: 980px;
+}
+
+    #contentHome 
+    {
+     width:600px;
+     background-color:Lime;   
+     float: left;
+    }
+    
+    #contentHomeRight 
+    {
+        width:360px;
+        background-color:Aqua;
+        float:right;
+    }

@@ -66,17 +66,17 @@
 						
 				<div id="login_and_search">
 					<div id="login_links">
-						<a href="javascript:void(0)" title="Inregistrare pe Wall-Street.ro" rel="nofollow" id="user_ident_register">inregistrare</a>	&nbsp;|&nbsp;<a href="javascript:void(0)" rel="nofollow" title="Intra in contul tau pe Wall-Street.ro" class="active" id="user_ident_login">intra in cont</a>
+						<a href="javascript:void(0)" title="Inregistrare pe Wall-Street.ro" rel="nofollow" id="user_ident_register">inregistrare</a>	&nbsp;|&nbsp;<a href="javascript:void(0)" rel="nofollow" title="Register" class="active" id="user_ident_login">intra in cont</a>
 						<a href="javascript:void(0)" onclick="IC_user_ident.submit('facebook'); return false;" title="Conecteaza-te cu Facebook" style="display: inline-block; float: right; padding: 5px 8px;"><img src="../../images/fb_very_small.png" align="top" alt="FB" />
 						</a>
 															
 					</div>			
 				
 					<div id="search_box">
-						<form action="#" method="post" onsubmit="if ($('#search_keyword_input').val() == 'cauta articole...') $('#search_keyword_input').val(''); return true;">							
+													
 							<input type="text" name="keyword" id="search_keyword_input" class="search_input" value="cauta articole..." onfocus="if ($(this).val()=='cauta articole...') $(this).val(''); $(this).css('color','#000');" onblur="if ($(this).val()=='') $(this).val('cauta articole...'); $(this).css('color','#666')"/>&nbsp;&nbsp;
 							<input type="submit" id="search_keyword_submit" class="submit_search" name="submit" value="" />
-						</form>	
+						
 					</div>
 				
 										
@@ -87,7 +87,7 @@
 			<div id="menu_placeholder">
 	<ul id="main_menu">	
 				<li class="section " style=" border-left:none; ">
-					<a class="section-title" href="#" style="cursor:pointer;" id="home" title="Home">HOME</a>
+					<a class="section-title" href="../Home.aspx" style="cursor:pointer;" id="home" title="Home">HOME</a>
 				</li>
 				<li class="section " style="">
 					<a class="section-title" href="#" style="cursor:pointer;" id="page1" title="Page1">Page 1</a>
@@ -98,7 +98,7 @@
 				<li class="section " style="">
 					<a class="section-title" href="#" style="cursor:pointer;" id="page3" title="Page 3">page 3</a>
 				</li>
-				<li class="section " style="" ">
+				<li class="section " style="">
 					<a class="section-title" href="#" style="cursor:pointer;" id="page4" title="Page 4">Page 4</a>
 				</li>
 				<li class="section " style="">
@@ -144,8 +144,8 @@
 					<div class="footer_floating_list" style="border:none;">
 						<ul>
 							<li><h3>MENIU</h3></li>
-							<li><a href="#" title="Home">HOME</a></li>
-                            <li><a href="#" title="ABOUT">ABOUT</a></li>
+							<li><a href="../Home.aspx" title="Home">HOME</a></li>
+                            <li><a href="../About.aspx" title="ABOUT">ABOUT</a></li>
                             <li><a href="#" title="Video conferince">MY RECORDS</a></li>
                         </ul>				
 					</div>			

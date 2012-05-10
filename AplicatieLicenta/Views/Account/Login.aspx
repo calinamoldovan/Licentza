@@ -9,6 +9,7 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>
 <script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+
 <script type="text/javascript" language="javascript">
 
 
@@ -69,12 +70,13 @@
 <div id="register" >
 <h1>REGISTER</h1><br /><br />
     <fieldset id="Fieldset1">
-       First Name: <input type="text" required="" autofocus="" placeholder="First Name" name="userFirstName" style="margin-left:45px"/> <br /><br />  
-       Last Name:<input type="text" required="" autofocus="" placeholder="Last Name" name="userLastName" style="margin-left:50px"/> <br /><br />
+       Name: <input type="text" required="" autofocus="" placeholder="First Name" name="userFirstName" style="margin-left:45px"/> <br /><br />  
+       Nick Name:<input type="text" required="" autofocus="" placeholder="Nick Name" name="userNickName" style="margin-left:50px"/> <br /><br />
        City: <input type="text" required="" autofocus="" placeholder="City" name="userCity"style="margin-left:85px"/> <br /><br />
        E-mail address:<input type="email" required="" autofocus="" placeholder="Email"name="userEmail" style="margin-left:25px"/><br />  <br /> 
        Password:<input type="password" required="" placeholder="Password" name="userPass" style="margin-left:55px"/><br /><br />
        Confirm Password<input type="password" required="" placeholder="Password" name="userPass" style="margin-left:12px"/><br /><br /><br />
+       
     </fieldset>
     <fieldset class="actions">
         <input type="submit" value="Register" id="submit2"/>
